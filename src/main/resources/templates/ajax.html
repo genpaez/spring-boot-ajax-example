@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Asistente Conectividad WAN</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" type="text/css"
+          href="webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/index">Asistente Conectividad WAN</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container" style="min-height: 500px">
+
+    <div class="starter-template">
+
+        <div id="feedback"></div>
+
+        <form class="form-horizontal" id="search-form">
+            <div class="form-group form-group-lg">
+                <label class="col-sm-2 control-label">Username</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="username"/>
+                </div>
+            </div>
+
+
+	   <div class="form-group">
+             <label for="sel1"> Cliente </label> 
+             <select class="form-control" id="sel1">
+             <option>Seleccione un cliente...</option>
+             <option> Falabella </option>
+             <option> Teleperformace </option>
+             <option> Bavaria </option>
+             <option> Cruz Verde </option>
+	     	 <option> Clinica Occidente </option>
+             </select>
+           </div>
+
+
+			<div><p class="result" id="result"> The response:  </p></div> 
+
+           <div class="form-group">
+             <label for="ciudad"> Ciudad </label> 
+             <select class="form-control" id="ciudad">
+ 				
+             </select>
+           </div>
+
+           <div class="form-group">
+             <label for="sel3" id="test"> Sede </label> 
+             <select class="form-control" id="sede">
+			 <option>Seleccione sede...</option>
+             <option> A </option>
+             <option> B </option>
+             <option> C </option>
+             <option> D </option>
+	     	 <option> E </option>
+             </select>
+           </div>
+
+	   <div class="form-group">
+             <label for="sel4"> Canal </label> 
+             <select class="form-control" id="sel4">
+             <option>Seleccione un canal...</option>
+             <option>Principal</option>
+             <option>Backup</option>
+             </select>
+           </div>
+
+			
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" id="btn-search"
+                            class="btn btn-primary btn-lg">Search
+                    </button>
+                </div>
+            </div>
+              
+        </form>
+
+    </div>
+</div>
+
+<div class="container">
+    <footer>
+        <p>
+            © <a href="http://grupooesia.com/grupo-oesia-colombia-2/">OESIA Networks</a> 2018
+        </p>
+    </footer>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+
+
+</body>
+</html>
