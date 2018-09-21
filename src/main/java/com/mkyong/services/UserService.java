@@ -64,12 +64,14 @@ public class UserService {
         users = new ArrayList<User>();
 
         User user1 = new User("mkyong", "password111", "mkyong@yahoo.com");
-        User user2 = new User("foo", "password222", "yflow@yahoo.com");
-        User user3 = new User("mani", "password333", "mkyong@yahoo.com");
+        User user2 = new User("mkyong", "password666", "mkyong@666.com");
+        User user3 = new User("foo", "password222", "fooo@yahoo.com");
+        User user4 = new User("foo", "password666", "foog@666.com");
 
         users.add(user1);
         users.add(user2);
         users.add(user3);
+        users.add(user4);
 
     }
 
