@@ -56,7 +56,7 @@ public class UserService {
         return result;
 
     }*/
-
+/*
     // Init some users for testing
     @PostConstruct
     private void iniDataForTesting() {
@@ -73,6 +73,6 @@ public class UserService {
         users.add(user3);
         users.add(user4);
 
-    }
+    }*/
 
 }

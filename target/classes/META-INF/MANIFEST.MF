@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
+Built-By: Admin
+Build-Jdk: 10.0.1
 Implementation-Title: spring-boot-ajax-example
 Implementation-Version: 1.0
-Built-By: Lap-0185-70H6H
 Implementation-Vendor-Id: com.mkyong
-Build-Jdk: 1.8.0_181
+Implementation-Vendor: Pivotal Software, Inc.
 Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
  ajax-example/
 Created-By: Maven Integration for Eclipse
-Implementation-Vendor: Pivotal Software, Inc.
 
